@@ -22,7 +22,7 @@ public class ExecutorsMain {
         executorService.submit(new MyRunThread());
         executorService.submit(new MyRunThread());
 
-
+        executorService.shutdown();
 
     }
 }
